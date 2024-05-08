@@ -378,11 +378,15 @@ SDL_IM_MODULE=fcitx
    ```
    [archlinuxcn]
    Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-   ```
    
-   ```
    sudo pacman -Sy archlinuxcn-keyring
    ```
+
+   There is one another excellent repository `chaotic-aur` 
+
+   You can take its official website:
+
+> https://aur.chaotic.cx/
 
 2. zsh
    
