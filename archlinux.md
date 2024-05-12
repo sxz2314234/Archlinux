@@ -381,9 +381,9 @@ SDL_IM_MODULE=fcitx
    
    sudo pacman -Sy archlinuxcn-keyring
    ```
-
+   
    There is one another excellent repository `chaotic-aur` 
-
+   
    You can take its official website:
 
 > https://aur.chaotic.cx/
@@ -399,14 +399,24 @@ SDL_IM_MODULE=fcitx
 
 3. Octopi
 
-4. Coding
+4. VMware
+   
+   ```
+   yay -S vmware-workstation
+   
+   sudo systemctl enable --now vmware-networks.service vmware-usbarbitrator.service
+   ```
+   
+   
+
+5. Coding
    
    ```
    yay -S  visual-studio-code-bin  go  gdb  docker   python-pip cargo meson  cmake gtk4
    ```
 
-5. Other 
+6. Other 
    
    ```
-   yay -S google-chrome marktext
+   yay -S google-chrome marktext localsend-bin
    ```
